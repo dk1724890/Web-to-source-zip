@@ -23,7 +23,7 @@ from telegram.ext import (
 from telegram.error import BadRequest
 
 # --- 🛠 CONFIGURATION ---
-TOKEN = "8586116847:AAHyq1bPfjMKm0mHN-O7JyZnt1V94Hit-10" 
+TOKEN = "8586116847:AAGenQHPzShiYQvVKxUiXxniEI9jzMWrobY" 
 
 REQUIRED_CHANNELS_DATA = {
     "@cineflixdk": "Join My Channel",
