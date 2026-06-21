@@ -5,6 +5,7 @@ import sqlite3
 import shutil
 import zipfile
 import asyncio
+import sys
 import datetime
 import aiohttp
 import aiofiles
