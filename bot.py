@@ -365,5 +365,11 @@ def main():
     print("Bot is live! Admin is active. 🔥")
     app.run_polling()
 
+    # Yeh code asyncio loop fix karega
+    if sys.version_info >= (3, 12) and sys.platform != "win32":
+        asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
+
+    
+
 if __name__ == "__main__":
     main()
